@@ -29,4 +29,13 @@ describe('Generate Test Suite', function SaveTest() {
 
         done();
     });
+
+    it('Should create ipsum with phrase', (done) => {
+        const createIpsum = generate.__get__('createIpsum');
+
+        const ipsum = createIpsum('make 10 paragraphs');
+        expect(ipsum).to.be.a.string;
+        expect(ipsum.length > 100).to.be.true;
+        done();
+    });
 });

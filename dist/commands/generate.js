@@ -4,9 +4,14 @@ var loremIpsum = require('lorem-ipsum');
 var output = loremIpsum();
 
 function generate(bot, trigger) {
-  var output = loremIpsum({
-    count: getCount(trigger.text),
-    units: getUnit(trigger.text),
+  var ipsumText = createIpsum(trigger.text);
+  bot.say({ markdown: ipsumText });
+}
+
+function createIpsum(phrase) {
+  return loremIpsum({
+    count: getCount(phrase),
+    units: getUnit(phrase),
     sentenceLowerBound: 4,
     sentenceUpperBound: 9,
     paragraphLowerBound: 2,
@@ -14,8 +19,6 @@ function generate(bot, trigger) {
     format: 'plain',
     suffix: '\n\n'
   });
-
-  bot.say({ text: output });
 }
 
 function getCount(text) {

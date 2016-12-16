@@ -1,7 +1,7 @@
 {
-  "name": "spark-bot-seed",
-  "version": "0.0.1",
-  "description": "A starter template for Cisco Spark bots.",
+  "name": "spark-lorem-ipsum",
+  "version": "0.1.0",
+  "description": "A bot to generate lorem ipsum on the fly",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
