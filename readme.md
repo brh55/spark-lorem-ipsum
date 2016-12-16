@@ -1,5 +1,5 @@
 # spark-lorem-ipsum
-[![Travis branch](https://img.shields.io/travis/brh55/spark-lorem-ipsum/master.svg)]()
+[![Travis branch](https://img.shields.io/travis/brh55/spark-lorem-ipsum/master.svg?style=flat-square)]()
 
 `spark-lorem-ipsum` is a Cisco Spark bot that helps designers generate lorem ipsum text on the fly without the need of an extra tool or browser.
 
