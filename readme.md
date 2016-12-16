@@ -6,7 +6,7 @@
 ## Usage
 Add `bot-name` to your room and follow the phrase format below to generate desired lorem ipsum:
 
-> `<generate | make | create> <qty> <sentences | paragraphs| words>`
+> `<generate|make|create> <qty> <sentences|paragraphs|words>`
 
 **Example:**
 
