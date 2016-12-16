@@ -6,11 +6,13 @@
 ## Usage
 Add `bot-name` to your room and follow the phrase format below to generate desired lorem ipsum:
 
-`<generate | make | create> <qty> <sentences | paragraphs| words>`
+> `<generate | make | create> <qty> <sentences | paragraphs| words>`
 
 **Example:**
 
-`@lorem-ipsum make 20 sentences`
+> @lorem-ipsum make 20 sentences  
+> @lorem-ipsum create 8 paragraphs    
+> @lorem-ipsum generate 25 words
 
 ## Deployment
 1. Cisco developer account
