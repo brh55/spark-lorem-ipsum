@@ -3,5 +3,5 @@ node_js:
     - "7.2.0"
 
 before_script:
-  - npm install
+  - yarn install
 script: cp ./example.env ./.env && npm test
