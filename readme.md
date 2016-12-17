@@ -1,10 +1,12 @@
 # spark-lorem-ipsum
 [![Travis branch](https://img.shields.io/travis/brh55/spark-lorem-ipsum/master.svg?style=flat-square)]()
 
-`spark-lorem-ipsum` is a Cisco Spark bot that helps designers generate lorem ipsum text on the fly without the need of an extra tool or browser.
+`spark-lorem-ipsum` is a Cisco Spark bot that helps designers generate lorem ipsum text on the fly without the need of an extra tool or browser. With a simple phrase, users can create a `X` amount of paragraphs, words, or sentences of visually pleasing filler text.
+
+![Demo Preview](https://cloud.githubusercontent.com/assets/6020066/21282471/2209db70-c3aa-11e6-893f-3f21af294d59.png)
 
 ## Usage
-Add `bot-name` to your room and follow the phrase format below to generate desired lorem ipsum:
+Add your `bot-name` to any spark room and follow the phrase format below to generate desired lorem ipsum:
 
 > `<generate|make|create> <qty> <sentences|paragraphs|words>`
 
@@ -28,4 +30,4 @@ Add `bot-name` to your room and follow the phrase format below to generate desir
 *Note: You must login before it will direct you to the quick deploy page.*
 
 ## Contribution
-This is a fairly small scope project, but I am always willing to take usability improvements, bug fixes, etc.
+I'm always willing to take usability improvements, features, bug fixes, etc.
