@@ -1,6 +1,6 @@
 {
-  "name": "spark-bot-seed",
-  "description": "A spark bot starter template",
+  "name": "Spark Lorem Ipsum Bot",
+  "description": "A spark bot that creates lorem ipsum on the fly.",
   "keywords": [
     "bot",
     "spark",
@@ -10,6 +10,7 @@
   "env": {
     "WEBHOOK_URL": {
       "description": "Spark web hook url in order for the bot to be notified",
+      "value": "https://heroku-bot-name.herokuapp.com/flint",
       "required": true
     },
     "TOKEN": {

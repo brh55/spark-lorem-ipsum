@@ -31,6 +31,7 @@ describe('Generate Test Suite', function SaveTest() {
     });
 
     it('Should create ipsum with phrase', (done) => {
+        // Lightly tested
         const createIpsum = generate.__get__('createIpsum');
 
         const ipsum = createIpsum('make 10 paragraphs');
